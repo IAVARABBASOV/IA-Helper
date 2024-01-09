@@ -1,0 +1,16 @@
+{
+    "name": "IA.LevelMakerSystem",
+    "rootNamespace": "",
+    "references": [
+        "GUID:9fb771bca6198574285700e85009cbd4"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -1,0 +1,22 @@
+{
+  "name": "com.abbasovs.iavar",
+  "version": "1.0.0",
+  "description": "Helper Pack to speed things up.\r\n\r\nHere are some solutions to the problem.\r\n\r\n- Easy Scene Changer - Helps you switch between scenes fast. It's actually a single EditorWindow script file, and it's very useful.\r\n\r\n- Channel/Listener System - This system allows to create ScriptableObject Event and listener.\r\n Multiple listeners can listen to the same value and execute it for different tasks.\r\nFor example: Let's have a Float Event Channel of the player's health, \r\na Listener to see it as the UI changes, and another system to check if the health is 0 or not. At this point, \r\nwe separate the UI and the life-checking system. But our value comes from the same place.\r\n\r\n\r\n- Channel && Listener Class Generator - As the name suggests, it is a tool for creating Channel and Listener classes. \r\nThis is so that we can create a Channel and listener at the same time according to any type. And make it easy to add them to the project.\r\n\r\n- Json Scriptable Save System - This is the save system,\r\nConverts Data -> to Json -> Encrypts it -> Creates a file named Game_Data in the Assets folder and writes it into it.\r\nReads game_data -> Decodes -> Loads values. (its working on Android/IOS/Windows, tested before)\r\n\r\n- Utils - Utils includes many helpful, functions for speed up coding. \r\nEx: myList.GetRandomItem() - it is give you random item from List or \r\n\"Hello, World\".Log(); it is increase your speed when write Log Message\n\n- All codes is under the IA namespace, ex: IA.Utils",
+  "displayName": "IA-Helper",
+  "unity": "2020.2",
+  "author": {
+    "name": "IAVAR ABBASOV",
+    "email": "iavarabbasov@gmail.com",
+    "url": ""
+  },
+  "keywords": [
+    "IA-Helper",
+    "Extensions",
+    "Helper"
+  ],
+  "unityRelease": "3f1",
+  "dependencies": {
+    "com.unity.nuget.newtonsoft-json": "3.2.1",
+    "com.unity.cinemachine": "2.9.7"
+  }
+}

@@ -1,0 +1,21 @@
+{
+    "name": "IA.EditorMenu",
+    "rootNamespace": "",
+    "references": [
+        "GUID:9fb771bca6198574285700e85009cbd4",
+        "GUID:950cef44baa7db24a8f490ba87e29a25"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [
+        "UNITY_EDITOR"
+    ],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
