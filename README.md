@@ -115,7 +115,7 @@ License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 Acknowledgments
-- https://t.ly/DoTween - DoTween (Free Version)
+- DoTween (Free Version) - https://assetstore.unity.com/packages/tools/animation/dotween-hotween-v2-27676
 - Newtonsoft.Json 
 
 ```csharp
