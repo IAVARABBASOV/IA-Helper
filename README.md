@@ -115,6 +115,7 @@ License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 Acknowledgments
+- https://t.ly/DoTween - DoTween (Free Version)
 - Newtonsoft.Json 
 
 ```csharp
