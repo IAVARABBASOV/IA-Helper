@@ -1,7 +1,7 @@
 # IA-Helper Unity Package
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-[![Unity](https://img.shields.io/badge/unity_Pack-IA-blue)](https://unity3d.com/get-unity/download)
+[![Unity](https://img.shields.io/badge/Unity_Pack-IA-blue)](https://unity3d.com/get-unity/download)
 
 ## Overview
 
@@ -115,6 +115,7 @@ License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 Acknowledgments
+- DoTween (Free Version) - https://assetstore.unity.com/packages/tools/animation/dotween-hotween-v2-27676
 - Newtonsoft.Json 
 
 ```csharp

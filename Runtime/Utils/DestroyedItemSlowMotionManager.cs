@@ -1,8 +1,4 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using System;
-using static CartoonFX.CFXR_Effect;
 
 namespace IA.Utils
 {
