@@ -15,6 +15,11 @@ namespace IA.Attributes
         {
             DrawDefaultInspector();
 
+            DrawButtons(target);
+        }
+
+        public static void DrawButtons(Object target)
+        {
             UnityEngine.Object targetObject = target as UnityEngine.Object;
             System.Type targetType = targetObject.GetType();
 
@@ -36,19 +41,19 @@ namespace IA.Attributes
 
                             if (result == 0)
                             {
-                                ButtonClicked(method, buttonAttribute);
+                                ButtonClicked(method, buttonAttribute, target);
                             }
                         }
                         else
                         {
-                            ButtonClicked(method, buttonAttribute);
+                            ButtonClicked(method, buttonAttribute, target);
                         }
                     }
                 }
             }
         }
 
-        private void ButtonClicked(MethodInfo method, InspectorButtonAttribute buttonAttribute)
+        private static void ButtonClicked(MethodInfo method, InspectorButtonAttribute buttonAttribute, Object target)
         {
             if (buttonAttribute.isIEnumerator)
             {

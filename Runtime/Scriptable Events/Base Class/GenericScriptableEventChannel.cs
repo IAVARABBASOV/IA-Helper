@@ -38,7 +38,7 @@ namespace IA.ScriptableEvent.Channel
         {
             return DataSaveLoad.ConvertToJsonText(this, (jObject) =>
             {
-                // Don't add unityEvent into json text
+                // Don't add unityEvent and some fields into json text
                 jObject.Remove(nameof(unityEvent));
                 jObject.Remove("isDebugEnabled");
 

@@ -1,12 +1,11 @@
 #if UNITY_EDITOR
 using UnityEditor;
 using UnityEngine;
-using IA.ScriptableEvent.Channel;
 using IA.Utils;
 
 namespace IA.EditorMenu
 {
-    public class MenuExtensions : MonoBehaviour
+    public partial class MenuExtensions : MonoBehaviour
     {
         [MenuItem("IA/Delete My Json Data and Player Prefs", priority = 0)]
         public static void DeleteAllJsonDataFiles()

@@ -86,10 +86,32 @@ namespace IA.JsonManager.Scriptable
 
         private void LoadDataFromJsonFile()
         {
-            //Debug.LogError("Load JSON Files");
-
             jsonDatabase.LoadFromJsonFile();
         }
+
+        #endregion
+
+        #region Editor Functions
+
+#if UNITY_EDITOR
+
+        [UnityEditor.MenuItem("IA/Json Manager/ -> Add Json File Manager")]
+        public static void AddMeToScene()
+        {
+            string jsonFileManagerName = "IA -> Json File Manager";
+            JsonFileManager jsonFileManagerGO = Object.FindFirstObjectByType<JsonFileManager>(findObjectsInactive: FindObjectsInactive.Exclude);
+
+            if (jsonFileManagerGO == null)
+            {
+                GameObject go = new GameObject(jsonFileManagerName);
+                JsonFileManager jsonFileManager = go.AddComponent<JsonFileManager>();
+
+                jsonFileManager.jsonDatabase = ScriptableUtility.
+                                               GetOrCreateScriptableObject<JsonScriptableDatabase>("Assets/!IA/Json Database.asset");
+            }
+        }
+
+#endif
 
         #endregion
     }

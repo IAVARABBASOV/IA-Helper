@@ -10,7 +10,7 @@ namespace IA.Utils
 {
     public static class DataSaveLoad
     {
-        private const string hashKey = "IA^_^Secret_KEY"; //recommend too many symbols.
+        private const string hashKey = "-Secret_KEY-1111"; //recommend too many symbols.
 
         //Find current path by platform
         public static string GetPath(string fileName)

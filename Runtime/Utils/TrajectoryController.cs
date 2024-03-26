@@ -1,9 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
-using DG.Tweening;
-using System.Linq;
 using UnityEngine.Events;
 
 namespace IA.Utils

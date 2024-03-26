@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) [09-01-2024] [IAVAR ABBASOV]
+Copyright (c) 09-01-2024 IAVAR ABBASOV
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

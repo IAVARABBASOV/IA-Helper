@@ -3,7 +3,7 @@ using IA.Utils;
 
 namespace IA.JsonManager.Scriptable
 {
-    public abstract class BaseJsonScriptable : ScriptableObject, IJsonScriptable
+    public abstract class BaseJsonScriptable : ScriptableObject
     {
         public virtual string GetJsonString() => DataSaveLoad.ConvertToJsonText(this);
 

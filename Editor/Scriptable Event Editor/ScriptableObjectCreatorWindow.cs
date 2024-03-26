@@ -220,22 +220,17 @@ public class ScriptableObjectCreatorWindow : EditorWindow
 
     private static string GetChannelClassPath(string _typeName)
     {
-        return $"Assets/IA-ScriptableEventChannel/Channel/{_typeName}ValueEventChannel.cs";
+        return $"Assets/!IA/ScriptableEventChannel/Channel/{_typeName}ValueEventChannel.cs";
     }
 
     private static string GetListenerClassPath(string _typeName)
     {
-        return $"Assets/IA-ScriptableEventChannel/Listener/{_typeName}ValueEventListener.cs";
+        return $"Assets/!IA/ScriptableEventChannel/Listener/{_typeName}ValueEventListener.cs";
     }
 
     private static void WriteCodeInFolder(string monoBehaviourPath, string monoBehaviourCode)
     {
-        // Check if the directory exists, create if not
-        string directoryPath = System.IO.Path.GetDirectoryName(monoBehaviourPath);
-        if (!System.IO.Directory.Exists(directoryPath))
-        {
-            System.IO.Directory.CreateDirectory(directoryPath);
-        }
+        DirectoryUtility.CreateDirectoryIfNotExists(monoBehaviourPath);
 
         // Write or overwrite the file
         System.IO.File.WriteAllText(monoBehaviourPath, monoBehaviourCode);

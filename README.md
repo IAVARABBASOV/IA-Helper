@@ -9,11 +9,12 @@ Helper Pack to speed things up.
 
 Here are some solutions to the problem.
 
-- Easy Scene Changer - Helps you switch between scenes fast. It's actually a single EditorWindow script file, and it's very useful.
+- Easy Scene Changer - Helps you switch between scenes fast.
 
 - Channel/Listener System - This system allows to create ScriptableObject Event and listener.
  Multiple listeners can listen to the same value and execute it for different tasks.
-For example: Let's have a Float Event Channel of the player's health, 
+
+- For example: Let's have a Float Event Channel of the player's health, 
 a Listener to see it as the UI changes, and another system to check if the health is 0 or not. At this point, 
 we separate the UI and the life-checking system. But our value comes from the same place.
 
@@ -42,11 +43,6 @@ You can install this package through the Unity Package Manager. Follow these ste
 2. Add a new package by selecting "Add package from git URL..."
 3. Enter the following URL: `https://github.com/IAVARABBASOV/IA-Helper.git`
 
-### Manual Installation
-
-1. Download the latest release from the [Releases](https://github.com/IAVARABBASOV/IA-Helper/releases) page.
-2. Extract the contents into your Unity project.
-
 ## Usage
 
 Examples and code snippets to demonstrate how to use IA-Helper package.
@@ -54,7 +50,6 @@ Examples and code snippets to demonstrate how to use IA-Helper package.
 ```csharp
 // Example code
 using IA.Utils;
-using System.Collections.Generic;
 
 // Short Codes
 List<GameObject> goList = new List<GameObject>();
@@ -81,14 +76,11 @@ StartCoroutine(this); // Also it can create/destroy temporary GameObject on scen
 public IEnumerator DoSomething()
 
 // Check String is Null or Not
-string myString = string.Empty;
 bool isMyStringNull = myString.IsNullOrWhiteSpace();
 
 // Compare Strings
-string otherString = myString;
 bool isMyStringOther = myString.AreThisStringEqualTo(otherString);
 
-List<GameObject> goList = new List<GameObject>();
 // Destroy All GameObjects in list
 goList.DestroyList();
 
@@ -115,8 +107,9 @@ License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 Acknowledgments
-- DoTween (Free Version) - https://assetstore.unity.com/packages/tools/animation/dotween-hotween-v2-27676
 - Newtonsoft.Json 
+- Cinemachine
+- Addressables
 
 ```csharp
 
@@ -127,8 +120,6 @@ JObject dataObject = JObject.Parse(jsonString);
 JProperty targetKeywordProperty = dataObject.Property(keyword);
 
 ```
-
-- and Cinemachine is the dependency of this package
 
 
 Contact
