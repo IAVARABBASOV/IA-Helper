@@ -1,0 +1,20 @@
+{
+    "name": "IA.Attributes",
+    "rootNamespace": "IA.Attributes",
+    "references": [
+        "GUID:9fb771bca6198574285700e85009cbd4"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [
+        "UNITY_EDITOR"
+    ],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

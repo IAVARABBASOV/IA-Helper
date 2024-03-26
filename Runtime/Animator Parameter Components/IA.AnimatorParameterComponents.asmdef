@@ -1,0 +1,16 @@
+{
+    "name": "IA.AnimatorParameterComponents",
+    "rootNamespace": "IA.AnimatorParameter",
+    "references": [
+        "GUID:f0ae6d3a536e43f4aa1beaea9b036510"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

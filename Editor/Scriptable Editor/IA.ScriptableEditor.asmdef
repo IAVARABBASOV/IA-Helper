@@ -1,0 +1,19 @@
+{
+    "name": "IA.ScriptableEditor",
+    "rootNamespace": "IA.ScriptableEditor",
+    "references": [
+        "GUID:9fb771bca6198574285700e85009cbd4",
+        "GUID:815a0d7512a137145b8faf55ddaa2454"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [
+        "UNITY_EDITOR"
+    ],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
