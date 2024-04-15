@@ -1,9 +1,8 @@
 # IA-Helper Unity Package
 
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)]([LICENSE](https://github.com/IAVARABBASOV/IA-Helper?tab=MIT-1-ov-file))
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)]([LICENSE](https://github.com/IAVARABBASOV/IA-Helper?tab=MIT-1-ov-file))
 [![Unity](https://img.shields.io/badge/Unity_Pack-IA-blue)](https://unity3d.com/get-unity/download)
-
-[DOCUMENTATION](https://iavars-organization.gitbook.io/ia-helper-documentation)
+[![Documentation](https://img.shields.io/badge/Documentation-DOC-orange.svg)]([LICENSE](https://iavars-organization.gitbook.io/ia-helper-documentation))
 
 ## Overview
 
