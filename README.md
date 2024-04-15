@@ -1,6 +1,6 @@
 # IA-Helper Unity Package
 
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)]([LICENSE](https://github.com/IAVARABBASOV/IA-Helper?tab=MIT-1-ov-file))
 [![Unity](https://img.shields.io/badge/Unity_Pack-IA-blue)](https://unity3d.com/get-unity/download)
 
 ## Overview
@@ -9,11 +9,9 @@ Helper Pack to speed things up.
 
 Here are some solutions to the problem.
 
-- Add Seperator
-  ![Add Seperator](https://github.com/IAVARABBASOV/IA-Helper/assets/155958627/a0c6fba6-a171-46b7-b72b-a7a368a34248)
-
+- Quick Add Seperator in Hierarchy 
 - Easy Scene Changer - Helps you switch between scenes fast.
-
+  
 - Channel/Listener System - This system allows to create ScriptableObject Event and listener.
  Multiple listeners can listen to the same value and execute it for different tasks.
 
