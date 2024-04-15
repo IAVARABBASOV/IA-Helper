@@ -13,7 +13,6 @@ Here are some solutions to the problem.
   ![Add Seperator](https://github.com/IAVARABBASOV/IA-Helper/assets/155958627/a0c6fba6-a171-46b7-b72b-a7a368a34248)
 
 - Easy Scene Changer - Helps you switch between scenes fast.
-  ![Uploading Easy Scene Loader.gif…]()
 
 - Channel/Listener System - This system allows to create ScriptableObject Event and listener.
  Multiple listeners can listen to the same value and execute it for different tasks.
@@ -21,7 +20,6 @@ Here are some solutions to the problem.
 - For example: Let's have a Float Event Channel of the player's health, 
 a Listener to see it as the UI changes, and another system to check if the health is 0 or not. At this point, 
 we separate the UI and the life-checking system. But our value comes from the same place.
-![Uploading Event Channel System.gif…]()
 
 - Channel && Listener Class Generator - As the name suggests, it is a tool for creating Channel and Listener classes. 
 This is so that we can create a Channel and listener at the same time according to any type. And make it easy to add them to the project.
