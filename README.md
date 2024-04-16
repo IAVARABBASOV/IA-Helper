@@ -46,7 +46,7 @@ You can install this package through the Unity Package Manager. Follow these ste
 
 ## Usage
 
-Examples and code snippets to demonstrate how to use IA-Helper package.
+Examples and code snippets to demonstrate how to use codes of IA-Helper package.
 
 ```csharp
 // Example code
