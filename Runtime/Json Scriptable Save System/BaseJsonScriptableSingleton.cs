@@ -27,10 +27,12 @@ namespace IA.JsonManager.Scriptable
 
         public static List<T> AssetInstances = new List<T>();
 
+#if UNITY_EDITOR
         private void Awake()
         {
             UpdateID().StartCoroutine();
         }
+#endif
 
         /// <summary>
         /// Load and Get Target Asset from Addressable
