@@ -10,6 +10,8 @@ namespace IA.Utils
 {
     public static class ScriptableUtility
     {
+
+#if UNITY_EDITOR
         public static T GetOrCreateScriptableObject<T>(string _path = "Assets/Database.asset") where T : ScriptableObject
         {
             // Find all assets of type JsonScriptableDatabase
@@ -35,5 +37,6 @@ namespace IA.Utils
                 return database;
             }
         }
+#endif
     }
 }
