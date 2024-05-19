@@ -20,7 +20,10 @@ namespace IA.JsonManager.Scriptable
     /// <typeparam name="T">Your ScriptableObject</typeparam>
     public abstract class BaseJsonScriptableSingleton<T> : BaseJsonScriptable where T : ScriptableObject
     {
-        [ReadOnly] public int Id = -1;
+        #if UNITY_EDITOR
+        [ReadOnly] 
+        #endif
+        public int Id = -1;
 
         public static List<T> AssetInstances = new List<T>();
 
