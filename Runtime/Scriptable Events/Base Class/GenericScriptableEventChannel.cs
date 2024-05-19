@@ -21,7 +21,7 @@ namespace IA.ScriptableEvent.Channel
         public UnityEvent<T> GetUnityEvent => unityEvent;
 
         public GenericScriptableEventChannel<T> SetValue(T _value) { value = _value; return this; }
-        public void SetValue(T _value) => value = _value;
+        public void SetTargetValue(T _value) => value = _value;
         public void AddListener(IChannelListener<T> _listener) => listeners.Add(_listener);
         public void RemoveListener(IChannelListener<T> _listener) => listeners.Remove(_listener);
         public bool ListenerExist(IChannelListener<T> _listener) => listeners.Exists(x => GameObject.ReferenceEquals(x, _listener));
